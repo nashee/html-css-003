@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 550px;
+    line-height: 1.7;
+    color: white;
+
+}
+
+header {
+    height: 95vh;
+    background-image:linear-gradient(to right , rgba(245, 18, 18, 0.671),rgb(155, 141, 141)) , url(../img/hero.jpg);
+    background-size: cover;
+    background-position-y: top;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    
+    
+}
