@@ -16,13 +16,23 @@ header {
   background-position-y: top;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   position: relative; }
-  header .main-header {
+  header .header-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
     text-align: center;
-    margin-top: 20vh; }
-    header .main-header .main-header-one {
-      display: block; }
-    header .main-header .main-header-two {
-      display: block; }
+    transform: translate(-50%, -50%); }
+    header .header-box .main-header {
+      font-size: 70px; }
+      header .header-box .main-header .main-header-one {
+        display: block;
+        font-size: 30px; }
+      header .header-box .main-header .main-header-two {
+        background: white;
+        font-size: 30px;
+        padding: 10px;
+        border-radius: 20px;
+        color: red; }
   header .logo {
     position: relative;
     top: 20px;

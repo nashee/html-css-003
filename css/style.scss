@@ -20,19 +20,33 @@ header {
     background-position-y: top;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     position: relative;
-    
-    .main-header {
+    .header-box{
+      
+         position: absolute;
+         top: 40%;
+         left: 50%;
          text-align: center;
-         margin-top: 20vh;
+         transform: translate(-50%, -50%);
+
+    .main-header {
+         font-size: 70px;
+         
          .main-header-one {
              display: block;
+             font-size: 30px;
+            
          }
          .main-header-two {
-             display: block;
+             background: white;
+             font-size: 30px;
+             padding: 10px;
+             border-radius: 20px;
+             color: red;
          }
        
      
     } 
+}
 
     .logo{
         position: relative;
@@ -45,3 +59,5 @@ header {
     }
     
 }  // end of header
+
+   
